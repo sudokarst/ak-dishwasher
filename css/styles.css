@@ -1,5 +1,13 @@
+h2 {
+    color: #bbbbbb;
+}
+
 .title, .by, .author {
     text-align: center;
+}
+
+#copyright {
+    color: #cccccc;
 }
 
 img {
