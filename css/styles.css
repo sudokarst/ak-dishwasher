@@ -1,5 +1,22 @@
+html {
+    background-color: #fff9f6;
+}
+
+header {
+    margin: 10% 0%;
+    background-color: #fff1ea;
+}
+
 h2 {
-    color: #bbbbbb;
+    color: #aaaaaa;
+}
+
+h1, h2, p, ul {
+    margin: 10px 10%;
+}
+
+li {
+    font-style: italic;
 }
 
 .title, .by, .author {
