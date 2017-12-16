@@ -1,38 +1,45 @@
-* { border: 1px dotted darkgreen;
-}
+/* TODO: investigate reponsive font-sizing */
 
-html {
-    background-color: #fff9f6;
-}
+/* DEBUG box-model
+* { border: 1px dotted darkgreen; }
+*/
+
+html { background-color: #faded9; }
 
 header {
-    /* margin: 0px 10% 0%; */
-    background-color: #fff1ea;
-}
-
-h2 {
-    color: #aaaaaa;
+    /*  source color from fishing image
+        hsl(13, 81%, 79%);
+    */
+    background-color: #f7c7b9;
 }
 
 h1, h2, p, ul {
     /* `margin` and `padding` start at the `-top` and run clockwise */
-    margin: 10px 10%;
+    margin: 1% 2.5%;
 }
 
-li {
-    font-style: italic;
-}
+h1, h2 { padding-top: 3% }
 
-.title, .by, .author {
-    text-align: center;
-}
-
-#copyright {
-    color: #cccccc;
-}
+h2 { color: #777777; }
 
 img {
-    width: 82%;
-    text-align: center;
-    margin: 0% 9%;
+    width: 90%;
+    margin: 1% 2.5%;
+    padding: 1% 2.5%;
 }
+
+li { font-style: italic; }
+
+p { text-align: justify; }
+
+.title, .by, .author { text-align: center; }
+
+.title {
+    margin-top: 0;
+    padding-top: 1%;
+}
+
+    .by { font-size: 90% }
+.author { font-size: 150% }
+
+#copyright { color: #aaaaaa; }
