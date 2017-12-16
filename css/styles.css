@@ -1,9 +1,12 @@
+* { border: 1px dotted darkgreen;
+}
+
 html {
     background-color: #fff9f6;
 }
 
 header {
-    margin: 10% 0%;
+    /* margin: 0px 10% 0%; */
     background-color: #fff1ea;
 }
 
@@ -12,6 +15,7 @@ h2 {
 }
 
 h1, h2, p, ul {
+    /* `margin` and `padding` start at the `-top` and run clockwise */
     margin: 10px 10%;
 }
 
@@ -28,7 +32,7 @@ li {
 }
 
 img {
-    width: 50%;
+    width: 82%;
     text-align: center;
-    margin: 0% 25%;
+    margin: 0% 9%;
 }
